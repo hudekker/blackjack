@@ -1,0 +1,73 @@
+/* Add your CSS styles here for styling the game elements */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.container-actions {
+  display: flex;
+  flex-direction: column;
+}
+.actions {
+  display: flex;
+}
+.result {    
+  margin-bottom: 20px; /* Add margin below the result */
+  min-height: 40px; /* Set a minimum height for the result */
+
+}
+.participants {
+  display: flex;
+  max-width: 800px;
+  width: 80vw;
+  justify-content: space-between;
+}
+
+.player, .dealer {
+  flex-basis: 45%;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.hand {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.red-suit{
+  color: red;
+}
+.black-suit{
+  color: black;
+}
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
